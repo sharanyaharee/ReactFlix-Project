@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Wrapper(props) {
+function Wrapper({children}) {
   return (
     <div className="wrapper">
-      {props.children}
+      {children}
     </div>
   )
 }
